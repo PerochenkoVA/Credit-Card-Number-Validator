@@ -7,48 +7,16 @@
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/Uzbek150885/Credit-Card-Number-Validator/issues/4
-* https://github.com/Uzbek150885/Credit-Card-Number-Validator/issues/3
-* https://github.com/Uzbek150885/Credit-Card-Number-Validator/issues/2
-* https://github.com/Uzbek150885/Credit-Card-Number-Validator/issues/1
+* [Не проверяет карты American Express (AMEX) разрядностью 15](https://github.com/Uzbek150885/Credit-Card-Number-Validator/issues/4)
+* [Не проверяет карты Diners Club - Carte Blanche разрядностью 14](https://github.com/Uzbek150885/Credit-Card-Number-Validator/issues/3)
+* [Не проверяет карты Обнаруживает разрядностью 19](https://github.com/Uzbek150885/Credit-Card-Number-Validator/issues/2)
+* [Не проверяет карты VISA разрядностью 19](https://github.com/Uzbek150885/Credit-Card-Number-Validator/issues/1)
 
 ## Описание процесса тестирования
 
-В качестве тестовых данных использовались данные https://www.freeformatter.com/credit-card-number-generator-validator.html:
-* 4539545173565926 - OK
-* 4556622506215046 - OK
-* 4485030171234629741 - Result is FAIL
-* 5431252793908539 - OK
-* 5481095389450500 - OK
-* 5152188036209193 - OK
-* 373228377737487 - Result is FAIL
-* 345786848546196 - Result is FAIL
-* 370531182893020 - Result is FAIL
-* 6011930126779562 - OK
-* 6011569333878997 - OK
-* 6011796761666260456 - Result is FAIL
-* 3530407480865914 - OK
-* 3532528178415932 - OK
-* 3589275693450210447 - Result is FAIL
-* 5540408971350708 - OK
-* 5470139634880039 - OK
-* 5427414750126424 - OK
-* 30149593239659 - Result is FAIL
-* 30091238107448 - Result is FAIL
-* 30446292845848 - Result is FAIL
-* 36866864511854 - Result is FAIL
-* 36828351669645 - Result is FAIL
-* 36196712663305 - Result is FAIL
-* 6304526270124971 - OK
-* 5038843655440269 - OK
-* 5018887007923112 - OK
-* 4026573484489297 - OK
-* 4508683206747356 - OK
-* 4844790228320600 - OK
-* 6377131023367027 - OK
-* 6390468309548026 - OK
+В качестве тестовых данных использовались данные [с ресурса:](https://www.freeformatter.com/credit-card-number-generator-validator.html)
 
 Тестирование производилось в следующем окружении:
 * ОС Win 8.1, 64x
 * версия Java: "11.0.11"
-* ссылка на исходники проекта на GitHub: https://github.com/Uzbek150885/Credit-Card-Number-Validator/blob/master/src/Main.java
+* [исходник проекта на GitHub](https://github.com/Uzbek150885/Credit-Card-Number-Validator/blob/master/src/Main.java)
